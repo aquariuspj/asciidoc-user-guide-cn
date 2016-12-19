@@ -1,0 +1,15 @@
+== 简介
+AsciiDoc是一种便于人们阅读了书写的文本文档格式，通过 asciidoc(1) 命令，它可以被转化为 DocBook 或者HTML。你可以用 asciidoc(1) 直接生成HTML，或者通过你喜欢的DocBook工具链来运行 asciidoc(1) DocBook输出，或者使用AsciiDoc a2x(1)工具链转换器生成PDF、EPUB、DVI、LaTeX、PostScript、man page、HTML和文本格式。
+
+AsciiDoc格式自身就是一种非常有用的展示格式：AsciiDoc标记非常简单和直观，并且非常方便校对和编辑。
+
+AsciiDoc很轻量：它包含一段简单的Python脚本和一些配置文件。除了 asciidoc(1) 和一个Python解释器，AsciiDoc文本文件不再需要其他任何程序才能转化为DocBook或HTML。参见下文的 <<X11,AsciiDoc文档示例>> 。
+
+文本标记约定往往是一种个人偏好的问题（通常很强烈）：如果你并不喜欢默认语法，你可以通过编辑基于 asciidoc(1) 的配置文件来自己定制。你也可以创建配置文件来将AsciiDoc文档转化为几乎所有的SGML/XML标记。
+
+asciidoc(1)与配置文件一起，将AsciiDoc文章、书籍和man pages转化为HTML或DocBook后端格式。
+
+.AsciiDoc起源
+**********************************************************************
+DocBook已经成为事实上的标准开源文档格式。但DocBook是复杂的语言，其标记非常难以阅读，同时难以直接写作 -- 我发现我花费了大量时间来敲打标记标签、翻阅参考手册和修改语法错误，甚至比我写文档的时间还多。
+**********************************************************************

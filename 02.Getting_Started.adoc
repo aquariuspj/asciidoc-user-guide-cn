@@ -1,0 +1,12 @@
+[[X6]]
+== 开始
+=== 安装AsciiDoc
+参见`README`和`INSTALL`文件，其中包括了安装前提和流程。打包器可以查看<<X38,打包器注释>>。
+
+[[X11]]
+=== AsciiDoc文档示例
+最好的迅速学习AsciiDoc的方法是去查看AsciiDoc web站点和/或分发示例：
+
+- 查看AsciiDoc web站点首页{website}的连接的例子。
+  点击'Page Source'选项卡菜单元素可以查看AsciiDoc源码。
+- 阅读分发包`./doc`目录下的`*.txt`源文件，以及其伴随的对应HTML和DocBook XML文件。
